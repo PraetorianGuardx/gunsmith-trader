@@ -89,6 +89,11 @@ in-game and accepted without changes.
 ### 1.0.0
 Initial release.
 
+## Licence
+
+Copyright (c) 2026 PraetorianGuardx
+Released under CC BY-NC-ND 4.0 — see `LICENSE`.
+
 ## Credits
 
 - Weapon configurations based on the publicly documented Gunsmith builds
