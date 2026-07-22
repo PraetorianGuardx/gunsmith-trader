@@ -3,7 +3,7 @@
 A TraderGen add-on. Adds **Nikolai "Kolya" Varga**, a former apprentice of Mechanic who
 sells pre-assembled weapons built to every Gunsmith contract specification.
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 ---
 
@@ -69,6 +69,25 @@ one patch behind live EFT, individual attachment stats may differ; if a contract
 accepted, adjust the build at a workbench.
 
 ---
+
+## Changelog
+
+### 1.0.1
+Fixed five builds that were rejected in-game. Published parts lists only cover
+attachments to buy, not stock parts that have to come off — these five kept
+default attachments that broke the contract requirements:
+
+- **Part 5 (M870)** — removed XS SHOTRAIL rail and EOTech XPS3-2 sight
+- **Part 18 (AKMN)** — removed NSPU-M night vision scope and eyecup
+- **Part 20 (M1A)** — 22 inch barrel swapped for 16 inch with SOCOM 16 muzzle brake
+- **Part 21 (M700)** — removed bipod, MDT 12-round magazine swapped for PMAG AC 5-round
+- **Part 24 (SR-25)** — removed bipod mount and AN/PEQ-15 tactical device
+
+Prices recalculated from handbook values. The remaining 21 builds were verified
+in-game and accepted without changes.
+
+### 1.0.0
+Initial release.
 
 ## Credits
 
