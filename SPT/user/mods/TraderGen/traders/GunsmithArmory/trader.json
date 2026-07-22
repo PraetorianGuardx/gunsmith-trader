@@ -319,22 +319,12 @@
       "loyaltyLevel": 1,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 110500,
+      "price": 74500,
       "currency": "RUB",
       "children": [
         {
           "itemTpl": "5a7882dcc5856700177af662",
           "slotId": "mod_magazine"
-        },
-        {
-          "itemTpl": "5a78948ec5856700177b1124",
-          "slotId": "mod_mount",
-          "children": [
-            {
-              "itemTpl": "584924ec24597768f12ae244",
-              "slotId": "mod_scope"
-            }
-          ]
         },
         {
           "itemTpl": "5a787f7ac5856700177af660",
@@ -1201,7 +1191,7 @@
       "loyaltyLevel": 3,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 275000,
+      "price": 256000,
       "currency": "RUB",
       "children": [
         {
@@ -1223,16 +1213,6 @@
         {
           "itemTpl": "59d650cf86f7741b846413a4",
           "slotId": "mod_sight_rear"
-        },
-        {
-          "itemTpl": "5a7c74b3e899ef0014332c29",
-          "slotId": "mod_mount_000",
-          "children": [
-            {
-              "itemTpl": "5ba36f85d4351e0085325c81",
-              "slotId": "mod_tactical"
-            }
-          ]
         },
         {
           "itemTpl": "5b0e794b5acfc47a877359b2",
@@ -1351,15 +1331,15 @@
       "loyaltyLevel": 4,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 359500,
+      "price": 341000,
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "5addbac75acfc400194dbc56",
+          "itemTpl": "5aaf9d53e5b5b00015042a52",
           "slotId": "mod_barrel",
           "children": [
             {
-              "itemTpl": "5addbb825acfc408fb139400",
+              "itemTpl": "5ab3afb2d8ce87001660304d",
               "slotId": "mod_muzzle"
             }
           ]
@@ -1417,11 +1397,11 @@
       "loyaltyLevel": 4,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 362500,
+      "price": 351000,
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "5d25a6a48abbc306c62e6310",
+          "itemTpl": "5ce69cbad7f00c00b61c5098",
           "slotId": "mod_magazine"
         },
         {
@@ -1436,16 +1416,6 @@
               "itemTpl": "5cde7afdd7f00c000d36b89d",
               "slotId": "mod_handguard",
               "children": [
-                {
-                  "itemTpl": "67112695fe5c8bf33f02476d",
-                  "slotId": "mod_mount_002",
-                  "children": [
-                    {
-                      "itemTpl": "5888961624597754281f93f3",
-                      "slotId": "mod_bipod"
-                    }
-                  ]
-                },
                 {
                   "itemTpl": "5a9d6d13a2750c00164f6b03",
                   "slotId": "mod_foregrip",
@@ -1747,7 +1717,7 @@
       "loyaltyLevel": 4,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 577000,
+      "price": 543000,
       "currency": "RUB",
       "children": [
         {
@@ -1789,22 +1759,8 @@
               "slotId": "mod_handguard",
               "children": [
                 {
-                  "itemTpl": "544909bb4bdc2d6f028b4577",
-                  "slotId": "mod_tactical"
-                },
-                {
                   "itemTpl": "5dfa3d950dee1b22f862eae0",
                   "slotId": "mod_sight_front"
-                },
-                {
-                  "itemTpl": "671126b049e181972e0681fa",
-                  "slotId": "mod_mount_002",
-                  "children": [
-                    {
-                      "itemTpl": "5888961624597754281f93f3",
-                      "slotId": "mod_bipod"
-                    }
-                  ]
                 },
                 {
                   "itemTpl": "5b7be47f5acfc400170e2dd2",
