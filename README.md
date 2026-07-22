@@ -58,12 +58,6 @@ EFT edition (starting standing 0.00–0.20).
 
 ## Notes
 
-Two Gunsmith contracts need a manual adjustment after purchase — these are weapon
-states, not parts, so they cannot be stored in a preset:
-
-- **Part 2 (AKS-74U)** — the stock has to be folded
-- **Part 14 (HK 416A5)** — the chamber has to be empty, otherwise the weapon is too heavy
-
 Weapon builds follow the publicly documented Gunsmith configurations. Because SPT runs
 one patch behind live EFT, individual attachment stats may differ; if a contract is not
 accepted, adjust the build at a workbench.
