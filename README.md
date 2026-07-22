@@ -60,7 +60,7 @@ EFT edition (starting standing 0.00–0.20).
 
 Weapon builds follow the publicly documented Gunsmith configurations. Because SPT runs
 one patch behind live EFT, individual attachment stats may differ; if a contract is not
-accepted, adjust the build at a workbench.
+accepted, adjust the build.
 
 ---
 
