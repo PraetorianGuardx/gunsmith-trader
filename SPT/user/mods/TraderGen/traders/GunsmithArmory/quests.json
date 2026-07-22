@@ -1,0 +1,185 @@
+{
+  "defaultQuestIcon": "assets/quest_icon.png",
+  "storyQuests": [
+    {
+      "id": "a1b2c3d4e5f60718293a4b01",
+      "traderId": "a1b2c3d4e5f60718293a4b5c",
+      "name": "The Easy Way",
+      "description": "You don't know me. I know what you've been doing.\n\nEvery few days you walk into Mechanic's shop with another rifle, built to his lists, down to the last millimetre. He looks it over, takes it, hands you the next one. And out you go to do it again.\n\nI stood at that bench for four years. Chasing tolerances, learning why a weapon fails at the exact moment it matters. Not once did he say the work was good enough.\n\nSo I left, and I took the skill with me.\n\nYou're looking at empty racks because I don't stock for strangers. Bring me tools - proper ones, not the rust you pry off dead Scavs - and come back out of Customs on your own legs. Then I'll show you what I actually build.",
+      "startedMessage": "Two toolsets, and you walk out of Customs breathing. That is the whole price of admission. Half the people I make this offer to never come back to collect.",
+      "successMessage": "You came back. Most don't bother.\n\nThe racks are open. Everything on the first one is finished work - hand any of it to Mechanic and he'll take it without a word.\n\nHe'll also tell you that you learn nothing this way. He's right. Then he'll tell you it builds character.\n\nCharacter doesn't get you through Customs at night. A working rifle does.",
+      "location": "bigmap",
+      "requirements": {
+        "playerLevel": 5,
+        "previousQuest": null
+      },
+      "objectives": [
+        {
+          "type": "handover_item",
+          "count": 2,
+          "description": "Hand over 2x Toolset",
+          "itemTpl": "590c2e1186f77425357b6124"
+        },
+        {
+          "type": "survive_location",
+          "location": "bigmap",
+          "count": 1,
+          "description": "Survive and extract from Customs"
+        }
+      ],
+      "rewards": {
+        "xp": 8000,
+        "money": {
+          "currency": "RUB",
+          "amount": 50000
+        },
+        "traderStanding": 0.5,
+        "items": [],
+        "unlockAssortItems": []
+      },
+      "image": "assets/quest_icon.png"
+    },
+    {
+      "id": "a1b2c3d4e5f60718293a4b02",
+      "traderId": "a1b2c3d4e5f60718293a4b5c",
+      "name": "Supply Lines",
+      "previousQuest": "a1b2c3d4e5f60718293a4b01",
+      "description": "A rack of finished rifles is worth nothing to me if I run dry.\n\nMechanic gets his shipments through channels I burned the day I walked out. Everything on my shelves comes out of crates rotting in the industrial yards - and somebody has to go out and open them.\n\nWrenches, pliers, fasteners. Unglamorous work. I'll strip what I need and the rest goes straight back into the builds.\n\nFill my crates and the second rack opens.",
+      "startedMessage": "Crates in the yards, tools inside them. Bring them back in one piece - bent hardware is scrap to me.",
+      "successMessage": "Better stock than Mechanic gets from his suppliers, and he pays three times what I do for it.\n\nSecond rack is yours. Don't make me regret the trust.",
+      "location": "bigmap",
+      "requirements": {
+        "playerLevel": 12,
+        "previousQuest": "a1b2c3d4e5f60718293a4b01"
+      },
+      "objectives": [
+        {
+          "type": "handover_item",
+          "count": 3,
+          "description": "Hand over 3x Wrench",
+          "itemTpl": "590c311186f77424d1667482"
+        },
+        {
+          "type": "handover_item",
+          "count": 3,
+          "description": "Hand over 3x Pliers",
+          "itemTpl": "590c2b4386f77425357b6123"
+        },
+        {
+          "type": "handover_item",
+          "count": 5,
+          "description": "Hand over 5x Bolts",
+          "itemTpl": "57347c5b245977448d35f6e1"
+        }
+      ],
+      "rewards": {
+        "xp": 18000,
+        "money": {
+          "currency": "RUB",
+          "amount": 120000
+        },
+        "traderStanding": 0.5,
+        "items": [],
+        "unlockAssortItems": []
+      },
+      "image": "assets/supply_lines.png"
+    },
+    {
+      "id": "a1b2c3d4e5f60718293a4b03",
+      "traderId": "a1b2c3d4e5f60718293a4b5c",
+      "name": "Quality Control",
+      "previousQuest": "a1b2c3d4e5f60718293a4b02",
+      "description": "Everything that leaves this shop, I measure twice. Bore, headspace, lockup - every tolerance he ever drilled into me, and I still hear his voice while I do it.\n\nBut a caliper only tells you what a rifle is on the bench. It says nothing about what it does at forty metres with someone shooting back.\n\nSo take my work out there and put it under load. Real contact, not a stroll through the woods. And bring me drills - I'm wearing mine down to the chuck.\n\nI want to know what breaks before a customer finds out for me.",
+      "startedMessage": "Take my builds into a real fight. Come back and tell me what held and what didn't. I want the truth, not a compliment.",
+      "successMessage": "Nothing failed. Good - that is the answer I needed, and the only one worth having.\n\nThird rack. Those took me weeks. Treat them accordingly.",
+      "location": "Interchange",
+      "requirements": {
+        "playerLevel": 18,
+        "previousQuest": "a1b2c3d4e5f60718293a4b02"
+      },
+      "objectives": [
+        {
+          "type": "kill_enemy",
+          "target": "AnyPmc",
+          "count": 8,
+          "description": "Eliminate 8 PMCs"
+        },
+        {
+          "type": "survive_location",
+          "location": "Interchange",
+          "count": 2,
+          "description": "Survive and extract from Interchange twice"
+        },
+        {
+          "type": "handover_item",
+          "count": 2,
+          "description": "Hand over 2x Electric drill",
+          "itemTpl": "59e35de086f7741778269d84"
+        }
+      ],
+      "rewards": {
+        "xp": 35000,
+        "money": {
+          "currency": "RUB",
+          "amount": 350000
+        },
+        "traderStanding": 0.5,
+        "items": [],
+        "unlockAssortItems": []
+      },
+      "image": "assets/quality_control.png"
+    },
+    {
+      "id": "a1b2c3d4e5f60718293a4b04",
+      "traderId": "a1b2c3d4e5f60718293a4b5c",
+      "name": "Old Debts",
+      "previousQuest": "a1b2c3d4e5f60718293a4b03",
+      "description": "Someone has been asking about me. Standing at the edge of the yard, arms crossed, watching who comes and who goes. Never close enough to talk.\n\nMight be Mechanic's people. Might be someone who wants this workshop for himself. Either way I am not walking into Reserve alone to find out.\n\nI left crates there when I cleared out of my last place - chained shut, still where I stacked them. Tools, spare stock, four years of work I never got to finish.\n\nBring them back. Thin out whatever is holding that ground. And keep your eyes open.\n\nDo that, and there is nothing on my shelves you have not earned.",
+      "startedMessage": "Reserve. Bring the crates back and watch the treeline - I do not think I am the only one interested in what is inside them.",
+      "successMessage": "That is everything. Every tool I own, back where it belongs.\n\nMechanic still will not take my calls. But he takes my rifles - every single one you have handed him passed without a word. He knows exactly whose work it is.\n\nTake whatever you need. The place is as much yours as mine now.",
+      "location": "Reserve",
+      "requirements": {
+        "playerLevel": 24,
+        "previousQuest": "a1b2c3d4e5f60718293a4b03"
+      },
+      "objectives": [
+        {
+          "type": "handover_item",
+          "count": 5,
+          "description": "Hand over 5x Toolset",
+          "itemTpl": "590c2e1186f77425357b6124"
+        },
+        {
+          "type": "handover_item",
+          "count": 4,
+          "description": "Hand over 4x Capacitors",
+          "itemTpl": "5c06782b86f77426df5407d2"
+        },
+        {
+          "type": "kill_enemy",
+          "target": "Savage",
+          "location": "Reserve",
+          "count": 15,
+          "description": "Eliminate 15 Scavs on Reserve"
+        },
+        {
+          "type": "survive_location",
+          "location": "Reserve",
+          "count": 2,
+          "description": "Survive and extract from Reserve twice"
+        }
+      ],
+      "rewards": {
+        "xp": 65000,
+        "money": {
+          "currency": "RUB",
+          "amount": 800000
+        },
+        "traderStanding": 0.5,
+        "items": [],
+        "unlockAssortItems": []
+      },
+      "image": "assets/old_debts.png"
+    }
+  ]
+}
