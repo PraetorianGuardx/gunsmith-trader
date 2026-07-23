@@ -465,7 +465,7 @@
       "loyaltyLevel": 2,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 281500,
+      "price": 306500,
       "currency": "RUB",
       "children": [
         {
@@ -747,7 +747,7 @@
       "loyaltyLevel": 2,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 210500,
+      "price": 355000,
       "currency": "RUB",
       "children": [
         {
@@ -995,7 +995,7 @@
       "loyaltyLevel": 3,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 238000,
+      "price": 247000,
       "currency": "RUB",
       "children": [
         {
@@ -1191,7 +1191,7 @@
       "loyaltyLevel": 3,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 256000,
+      "price": 231000,
       "currency": "RUB",
       "children": [
         {
@@ -1331,7 +1331,7 @@
       "loyaltyLevel": 4,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 341000,
+      "price": 372000,
       "currency": "RUB",
       "children": [
         {
@@ -1541,7 +1541,7 @@
       "loyaltyLevel": 4,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 802000,
+      "price": 1321500,
       "currency": "RUB",
       "children": [
         {

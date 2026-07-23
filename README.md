@@ -3,7 +3,7 @@
 A TraderGen add-on. Adds **Nikolai "Kolya" Varga**, a former apprentice of Mechanic who
 sells pre-assembled weapons built to every Gunsmith contract specification.
 
-**Version:** 1.0.1
+**Version:** 1.0.2
 
 ---
 
@@ -65,6 +65,16 @@ accepted, adjust the build.
 ---
 
 ## Changelog
+
+### 1.0.2
+Barter-only attachments are now priced at what they actually cost to acquire.
+Handbook values only rate the item itself, not the trade goods needed to obtain
+it — for parts that no trader sells for money, the cheapest barter is now used
+as the material value instead.
+
+Six weapons changed. The largest is Part 22, where the Trijicon REAP-IR costs
+roughly twice its handbook value in trade. Part 18 became cheaper, as the
+Rotor 43 suppressor trades below its listed price.
 
 ### 1.0.1
 Fixed five builds that were rejected in-game. Published parts lists only cover
