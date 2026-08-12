@@ -1,4 +1,7 @@
 *.bak*
+tools/idx.tsv
+tools/hb.tsv
+addon/assets-raw/
 Thumbs.db
 desktop.ini
 .DS_Store

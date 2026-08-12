@@ -37,7 +37,7 @@
         "items": [],
         "unlockAssortItems": []
       },
-      "image": "assets/quest_icon.png"
+      "image": "assets/the_easy_way.png"
     },
     {
       "id": "a1b2c3d4e5f60718293a4b02",
@@ -47,7 +47,7 @@
       "description": "A rack of finished rifles is worth nothing to me if I run dry.\n\nMechanic gets his shipments through channels I burned the day I walked out. Everything on my shelves comes out of crates rotting in the industrial yards - and somebody has to go out and open them.\n\nWrenches, pliers, fasteners. Unglamorous work. I'll strip what I need and the rest goes straight back into the builds.\n\nFill my crates and the second rack opens.",
       "startedMessage": "Crates in the yards, tools inside them. Bring them back in one piece - bent hardware is scrap to me.",
       "successMessage": "Better stock than Mechanic gets from his suppliers, and he pays three times what I do for it.\n\nSecond rack is yours. Don't make me regret the trust.",
-      "location": "bigmap",
+      "location": "any",
       "requirements": {
         "playerLevel": 12,
         "previousQuest": "a1b2c3d4e5f60718293a4b01"

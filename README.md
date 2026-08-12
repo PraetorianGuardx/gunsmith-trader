@@ -3,7 +3,7 @@
 A TraderGen add-on. Adds **Nikolai "Kolya" Varga**, a former apprentice of Mechanic who
 sells pre-assembled weapons built to every Gunsmith contract specification.
 
-**Version:** 1.0.2
+**Version:** 1.0.3
 
 ---
 
@@ -65,6 +65,13 @@ accepted, adjust the build.
 ---
 
 ## Changelog
+
+### 1.0.3
+Supply Lines was pinned to Customs even though none of its objectives happen there —
+it hands over tools and nothing else. It is now location-independent.
+
+New artwork for all four quests, and The Easy Way no longer borrows the generic
+quest icon.
 
 ### 1.0.2
 Barter-only attachments are now priced at what they actually cost to acquire.
