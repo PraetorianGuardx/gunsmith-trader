@@ -397,10 +397,6 @@
           "slotId": "mod_pistol_grip"
         },
         {
-          "itemTpl": "5649d9a14bdc2d79388b4580",
-          "slotId": "mod_sight_rear"
-        },
-        {
           "itemTpl": "5b0e794b5acfc47a877359b2",
           "slotId": "mod_stock"
         },
@@ -637,7 +633,7 @@
           "slotId": "mod_gas_block",
           "children": [
             {
-              "itemTpl": "5b80242286f77429445e0b47",
+              "itemTpl": "5c9a07572e221644f31c4b32",
               "slotId": "mod_handguard",
               "children": []
             }
@@ -646,10 +642,6 @@
         {
           "itemTpl": "6087e663132d4d12c81fd96b",
           "slotId": "mod_pistol_grip"
-        },
-        {
-          "itemTpl": "628a7b23b0f75035732dd565",
-          "slotId": "mod_sight_rear"
         },
         {
           "itemTpl": "5ac78eaf5acfc4001926317a",
@@ -724,14 +716,6 @@
               ]
             }
           ]
-        },
-        {
-          "itemTpl": "5fce0f9b55375d18a253eff2",
-          "slotId": "mod_mount_001"
-        },
-        {
-          "itemTpl": "5fce0f9b55375d18a253eff2",
-          "slotId": "mod_mount_002"
         },
         {
           "itemTpl": "5fbb978207e8a97d1f0902d3",
@@ -1024,6 +1008,10 @@
                 {
                   "itemTpl": "544909bb4bdc2d6f028b4577",
                   "slotId": "mod_tactical_000"
+                },
+                {
+                  "itemTpl": "588226d124597767ad33f787",
+                  "slotId": "mod_foregrip"
                 }
               ]
             }
@@ -1032,10 +1020,6 @@
         {
           "itemTpl": "57c44f4f2459772d2c627113",
           "slotId": "mod_reciever"
-        },
-        {
-          "itemTpl": "57c450252459772d28133253",
-          "slotId": "mod_stock"
         },
         {
           "itemTpl": "651178336cad06c37c049eb4",
@@ -1142,6 +1126,11 @@
                 {
                   "itemTpl": "5b3a337e5acfc4704b4a19a0",
                   "slotId": "mod_tactical_002"
+                },
+                {
+                  "itemTpl": "57adff4f24597737f373b6e6",
+                  "slotId": "mod_scope",
+                  "children": []
                 }
               ]
             }
@@ -1172,17 +1161,6 @@
           ]
         },
         {
-          "itemTpl": "5649af884bdc2d1b2b8b4589",
-          "slotId": "mod_reciever",
-          "children": [
-            {
-              "itemTpl": "57adff4f24597737f373b6e6",
-              "slotId": "mod_scope",
-              "children": []
-            }
-          ]
-        },
-        {
           "itemTpl": "5c0548ae0db834001966a3c2",
           "slotId": "mod_magazine"
         },
@@ -1191,18 +1169,24 @@
           "slotId": "mod_stock",
           "children": [
             {
-              "itemTpl": "5fbbaa86f9986c4cff3fe5f6",
-              "slotId": "mod_stock"
+              "itemTpl": "56eabf3bd2720b75698b4569",
+              "slotId": "mod_stock",
+              "children": [
+                {
+                  "itemTpl": "58d2912286f7744e27117493",
+                  "slotId": "mod_stock"
+                }
+              ]
             }
           ]
         },
         {
-          "itemTpl": "65f1b1176dbd6c5ba2082eed",
-          "slotId": "mod_mount_000"
-        },
-        {
           "itemTpl": "6130ca3fd92c473c77020dbd",
           "slotId": "mod_charge"
+        },
+        {
+          "itemTpl": "5649af094bdc2df8348b4586",
+          "slotId": "mod_reciever"
         }
       ]
     },
@@ -1231,10 +1215,6 @@
           ]
         },
         {
-          "itemTpl": "59d650cf86f7741b846413a4",
-          "slotId": "mod_sight_rear"
-        },
-        {
           "itemTpl": "5b0e794b5acfc47a877359b2",
           "slotId": "mod_stock"
         },
@@ -1251,7 +1231,7 @@
           "slotId": "mod_muzzle"
         },
         {
-          "itemTpl": "5d2c76ed48f03532f2136169",
+          "itemTpl": "5d2c772c48f0355d95672c25",
           "slotId": "mod_reciever",
           "children": [
             {
@@ -1259,6 +1239,15 @@
               "slotId": "mod_scope"
             }
           ]
+        },
+        {
+          "itemTpl": "6130ca3fd92c473c77020dbd",
+          "slotId": "mod_charge"
+        },
+        {
+          "itemTpl": "65f1b1176dbd6c5ba2082eed",
+          "slotId": "mod_mount_000",
+          "children": []
         }
       ]
     },
@@ -1648,10 +1637,6 @@
               "slotId": "mod_stock_000"
             }
           ]
-        },
-        {
-          "itemTpl": "675307301f7c19a9780f2668",
-          "slotId": "mod_charge_001"
         }
       ]
     },

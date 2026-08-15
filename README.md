@@ -3,7 +3,7 @@
 A TraderGen add-on. Adds **Nikolai "Kolya" Varga**, a former apprentice of Mechanic who
 sells pre-assembled weapons built to every Gunsmith contract specification.
 
-**Version:** 1.0.4
+**Version:** 1.0.5
 
 ---
 
@@ -67,6 +67,16 @@ accepted, adjust the build.
 ---
 
 ## Changelog
+
+### 1.0.5
+Seven weapons carried attachment combinations that EFT refuses to assemble, so the
+weapon reaching the player was not the one the file described. Part 6, 11 and 22 only
+needed a redundant part dropped and are otherwise unchanged. Part 10, 17 and 18 needed
+a dust cover or mount swapped; Part 18 gains ergonomics in the process. Part 15 loses
+its skeleton stock, which conflicts with the buffer-tube pistol grip - recoil rises
+from 150 to 207 against a limit of 220.
+
+Two of these conflicts predate 1.0.4.
 
 ### 1.0.4
 Nine builds no longer met their contract and were rebuilt: Part 2, 10, 11, 12, 13,
