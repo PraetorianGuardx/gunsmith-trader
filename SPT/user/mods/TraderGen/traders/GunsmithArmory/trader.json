@@ -127,12 +127,20 @@
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "57e3dba62459770f0c32322b",
+          "itemTpl": "5947f92f86f77427344a76b1",
           "slotId": "mod_pistol_grip"
         },
         {
           "itemTpl": "57dc347d245977596754e7a1",
           "slotId": "mod_stock"
+        },
+        {
+          "itemTpl": "5648ac824bdc2ded0b8b457d",
+          "slotId": "mod_charge"
+        },
+        {
+          "itemTpl": "55d482194bdc2d1d4e8b456b",
+          "slotId": "mod_magazine"
         },
         {
           "itemTpl": "57dc324a24597759501edc20",
@@ -148,13 +156,15 @@
           "children": [
             {
               "itemTpl": "57ffa9f4245977728561e844",
-              "slotId": "mod_handguard"
+              "slotId": "mod_handguard",
+              "children": [
+                {
+                  "itemTpl": "5c1bc4812e22164bef5cfde7",
+                  "slotId": "mod_foregrip"
+                }
+              ]
             }
           ]
-        },
-        {
-          "itemTpl": "55d482194bdc2d1d4e8b456b",
-          "slotId": "mod_magazine"
         }
       ]
     },
@@ -379,7 +389,7 @@
       "loyaltyLevel": 1,
       "stock": 1,
       "unlimitedStock": false,
-      "price": 237000,
+      "price": 225000,
       "currency": "RUB",
       "children": [
         {
@@ -388,29 +398,11 @@
         },
         {
           "itemTpl": "5649d9a14bdc2d79388b4580",
-          "slotId": "mod_sight_rear",
-          "children": [
-            {
-              "itemTpl": "584924ec24597768f12ae244",
-              "slotId": "mod_scope"
-            }
-          ]
+          "slotId": "mod_sight_rear"
         },
         {
-          "itemTpl": "5649b2314bdc2d79388b4576",
-          "slotId": "mod_stock",
-          "children": [
-            {
-              "itemTpl": "5649be884bdc2d79388b4577",
-              "slotId": "mod_stock",
-              "children": [
-                {
-                  "itemTpl": "5947c73886f7747701588af5",
-                  "slotId": "mod_stock_000"
-                }
-              ]
-            }
-          ]
+          "itemTpl": "5b0e794b5acfc47a877359b2",
+          "slotId": "mod_stock"
         },
         {
           "itemTpl": "59d6272486f77466146386ff",
@@ -645,22 +637,29 @@
           "slotId": "mod_gas_block",
           "children": [
             {
-              "itemTpl": "5648b1504bdc2d9d488b4584",
-              "slotId": "mod_handguard"
+              "itemTpl": "5b80242286f77429445e0b47",
+              "slotId": "mod_handguard",
+              "children": []
             }
           ]
         },
         {
-          "itemTpl": "5649ade84bdc2d1b2b8b4587",
+          "itemTpl": "6087e663132d4d12c81fd96b",
           "slotId": "mod_pistol_grip"
         },
         {
-          "itemTpl": "5ac733a45acfc400192630e2",
+          "itemTpl": "628a7b23b0f75035732dd565",
           "slotId": "mod_sight_rear"
         },
         {
-          "itemTpl": "5ac50c185acfc400163398d4",
-          "slotId": "mod_stock"
+          "itemTpl": "5ac78eaf5acfc4001926317a",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "59ecc3dd86f7746dc827481c",
+              "slotId": "mod_stock"
+            }
+          ]
         },
         {
           "itemTpl": "55d482194bdc2d1d4e8b456b",
@@ -705,8 +704,26 @@
           "slotId": "mod_sight_rear"
         },
         {
-          "itemTpl": "5fb6558ad6f0b2136f2d7eb7",
-          "slotId": "mod_stock"
+          "itemTpl": "5fb655b748c711690e3a8d5a",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "5bb20e58d4351e00320205d7",
+              "slotId": "mod_stock_000",
+              "children": [
+                {
+                  "itemTpl": "56eabf3bd2720b75698b4569",
+                  "slotId": "mod_stock_000",
+                  "children": [
+                    {
+                      "itemTpl": "58d2912286f7744e27117493",
+                      "slotId": "mod_stock"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "itemTpl": "5fce0f9b55375d18a253eff2",
@@ -727,7 +744,7 @@
           ]
         },
         {
-          "itemTpl": "5a7ad2e851dfba0016153692",
+          "itemTpl": "630767c37d50ff5e8a1ea71a",
           "slotId": "mod_magazine"
         },
         {
@@ -817,7 +834,7 @@
           "slotId": "mod_stock",
           "children": [
             {
-              "itemTpl": "591aef7986f774139d495f03",
+              "itemTpl": "5947e98b86f774778f1448bc",
               "slotId": "mod_stock"
             }
           ]
@@ -841,7 +858,7 @@
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "5a339805c4a2826c6e06d73d",
+          "itemTpl": "59db3a1d86f77429e05b4e92",
           "slotId": "mod_pistol_grip"
         },
         {
@@ -853,14 +870,8 @@
           "slotId": "mod_handguard",
           "children": [
             {
-              "itemTpl": "5c0102b20db834001d23eebc",
-              "slotId": "mod_foregrip",
-              "children": [
-                {
-                  "itemTpl": "5c1bc7752e221602b1779b34",
-                  "slotId": "mod_foregrip"
-                }
-              ]
+              "itemTpl": "57cffb66245977632f391a99",
+              "slotId": "mod_foregrip"
             }
           ]
         },
@@ -1121,7 +1132,7 @@
           "slotId": "mod_gas_block",
           "children": [
             {
-              "itemTpl": "5c617a5f2e2216000f1e81b3",
+              "itemTpl": "5f6331e097199b7db2128dc2",
               "slotId": "mod_handguard",
               "children": [
                 {
@@ -1130,18 +1141,18 @@
                 },
                 {
                   "itemTpl": "5b3a337e5acfc4704b4a19a0",
-                  "slotId": "mod_tactical"
+                  "slotId": "mod_tactical_002"
                 }
               ]
             }
           ]
         },
         {
-          "itemTpl": "5649ade84bdc2d1b2b8b4587",
+          "itemTpl": "6087e663132d4d12c81fd96b",
           "slotId": "mod_pistol_grip"
         },
         {
-          "itemTpl": "5ac733a45acfc400192630e2",
+          "itemTpl": "628a7b23b0f75035732dd565",
           "slotId": "mod_sight_rear"
         },
         {
@@ -1161,12 +1172,13 @@
           ]
         },
         {
-          "itemTpl": "5d2c76ed48f03532f2136169",
+          "itemTpl": "5649af884bdc2d1b2b8b4589",
           "slotId": "mod_reciever",
           "children": [
             {
-              "itemTpl": "6477772ea8a38bb2050ed4db",
-              "slotId": "mod_scope"
+              "itemTpl": "57adff4f24597737f373b6e6",
+              "slotId": "mod_scope",
+              "children": []
             }
           ]
         },
@@ -1183,6 +1195,14 @@
               "slotId": "mod_stock"
             }
           ]
+        },
+        {
+          "itemTpl": "65f1b1176dbd6c5ba2082eed",
+          "slotId": "mod_mount_000"
+        },
+        {
+          "itemTpl": "6130ca3fd92c473c77020dbd",
+          "slotId": "mod_charge"
         }
       ]
     },
@@ -1335,12 +1355,13 @@
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "5aaf9d53e5b5b00015042a52",
+          "itemTpl": "5addbac75acfc400194dbc56",
           "slotId": "mod_barrel",
           "children": [
             {
-              "itemTpl": "5ab3afb2d8ce87001660304d",
-              "slotId": "mod_muzzle"
+              "itemTpl": "5a34fd2bc4a282329a73b4c5",
+              "slotId": "mod_muzzle",
+              "children": []
             }
           ]
         },
@@ -1545,7 +1566,7 @@
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "59bfe68886f7746004266202",
+          "itemTpl": "63f5ed14534b2c3d5479a677",
           "slotId": "mod_reciever",
           "children": [
             {
@@ -1599,19 +1620,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "itemTpl": "5bc09a18d4351e003562b68e",
+              "slotId": "mod_sight_rear"
             }
           ]
         },
         {
-          "itemTpl": "56ea7165d2720b6e518b4583",
+          "itemTpl": "5b2240bf5acfc40dc528af69",
           "slotId": "mod_charge"
         },
         {
-          "itemTpl": "544a37c44bdc2d25388b4567",
+          "itemTpl": "59c1383d86f774290a37e0ca",
           "slotId": "mod_magazine"
         },
         {
-          "itemTpl": "5a339805c4a2826c6e06d73d",
+          "itemTpl": "59db3a1d86f77429e05b4e92",
           "slotId": "mod_pistol_grip"
         },
         {
@@ -1833,7 +1858,7 @@
       "currency": "RUB",
       "children": [
         {
-          "itemTpl": "64cbad529f7cf7f75c077fd5",
+          "itemTpl": "6087e663132d4d12c81fd96b",
           "slotId": "mod_pistolgrip"
         },
         {
@@ -1847,6 +1872,10 @@
             {
               "itemTpl": "5649ade84bdc2d1b2b8b4587",
               "slotId": "mod_pistolgrip_000"
+            },
+            {
+              "itemTpl": "5a0c59791526d8dba737bba7",
+              "slotId": "mod_stock_000"
             }
           ]
         },
@@ -1863,8 +1892,9 @@
               "slotId": "mod_foregrip"
             },
             {
-              "itemTpl": "6492c8bba6e68e06fb0bae87",
-              "slotId": "mod_mount"
+              "itemTpl": "6492c6dd60fdb10a020621a2",
+              "slotId": "mod_mount",
+              "children": []
             },
             {
               "itemTpl": "5cc9c20cd7f00c001336c65d",
@@ -1884,7 +1914,413 @@
         },
         {
           "itemTpl": "5cf638cbd7f00c06595bc936",
-          "slotId": "mod_scope"
+          "slotId": "mod_scope",
+          "children": [
+            {
+              "itemTpl": "5cf639aad7f00c065703d455",
+              "slotId": "mod_tactical"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "itemTpl": "5447a9cd4bdc2dbd208b4567",
+      "loyaltyLevel": 4,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 1450000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "59db3a1d86f77429e05b4e92",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "itemTpl": "5aaa5e60e5b5b000140293d6",
+          "slotId": "mod_magazine"
+        },
+        {
+          "itemTpl": "59bfe68886f7746004266202",
+          "slotId": "mod_reciever",
+          "children": [
+            {
+              "itemTpl": "55d3632e4bdc2d972f8b4569",
+              "slotId": "mod_barrel",
+              "children": [
+                {
+                  "itemTpl": "544a38634bdc2d58388b4568",
+                  "slotId": "mod_muzzle"
+                },
+                {
+                  "itemTpl": "5ae30e795acfc408fb139a0b",
+                  "slotId": "mod_gas_block"
+                }
+              ]
+            },
+            {
+              "itemTpl": "55d459824bdc2d892f8b4573",
+              "slotId": "mod_handguard",
+              "children": [
+                {
+                  "itemTpl": "637f57b78d137b27f70c496a",
+                  "slotId": "mod_handguard",
+                  "children": [
+                    {
+                      "itemTpl": "5a7dbfc1159bd40016548fde",
+                      "slotId": "mod_foregrip"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "itemTpl": "55d5f46a4bdc2d1b198b4567",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "itemTpl": "58491f3324597764bc48fa02",
+              "slotId": "mod_scope"
+            }
+          ]
+        },
+        {
+          "itemTpl": "5c793fb92e221644f31bfb64",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "5d135e83d7ad1a21b83f42d8",
+              "slotId": "mod_stock_000"
+            }
+          ]
+        },
+        {
+          "itemTpl": "55d44fd14bdc2d962f8b456e",
+          "slotId": "mod_charge"
+        }
+      ]
+    },
+    {
+      "itemTpl": "5df24cf80dee1b22f862e9bc",
+      "loyaltyLevel": 3,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 980000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "5df25b6c0b92095fd441e4cf",
+          "slotId": "mod_magazine"
+        },
+        {
+          "itemTpl": "5df256570dee1b22f862e9c4",
+          "slotId": "mod_barrel",
+          "children": [
+            {
+              "itemTpl": "59bffc1f86f77435b128b872",
+              "slotId": "mod_muzzle",
+              "children": [
+                {
+                  "itemTpl": "59bffbb386f77435b379b9c2",
+                  "slotId": "mod_muzzle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemTpl": "5df35e59c41b2312ea3334d5",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "5df25d3bfd6b4e6e2276dc9a",
+              "slotId": "mod_handguard",
+              "children": [
+                {
+                  "itemTpl": "5df35eb2b11454561e3923e2",
+                  "slotId": "mod_mount_000"
+                },
+                {
+                  "itemTpl": "5df35eb2b11454561e3923e2",
+                  "slotId": "mod_mount_001"
+                },
+                {
+                  "itemTpl": "5df35ea9c41b2312ea3334d8",
+                  "slotId": "mod_mount_002"
+                },
+                {
+                  "itemTpl": "5df35eb2b11454561e3923e2",
+                  "slotId": "mod_mount_003"
+                },
+                {
+                  "itemTpl": "5df36948bb49d91fb446d5ad",
+                  "slotId": "mod_foregrip"
+                },
+                {
+                  "itemTpl": "5888961624597754281f93f3",
+                  "slotId": "mod_bipod"
+                }
+              ]
+            },
+            {
+              "itemTpl": "5df38a5fb74cd90030650cb6",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "itemTpl": "5df35ddddfc58d14537c2036",
+              "slotId": "mod_stock_axis"
+            }
+          ]
+        },
+        {
+          "itemTpl": "5df35e970b92095fd441e4d2",
+          "slotId": "mod_mount",
+          "children": [
+            {
+              "itemTpl": "5aa66a9be5b5b0214e506e89",
+              "slotId": "mod_scope",
+              "children": [
+                {
+                  "itemTpl": "5aa66be6e5b5b0214e506e97",
+                  "slotId": "mod_scope"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "itemTpl": "59984ab886f7743e98271174",
+      "loyaltyLevel": 3,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 420000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "5649ae4a4bdc2d1b2b8b4588",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "itemTpl": "5ac78eaf5acfc4001926317a",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "59ecc3dd86f7746dc827481c",
+              "slotId": "mod_stock"
+            }
+          ]
+        },
+        {
+          "itemTpl": "599860ac86f77436b225ed1a",
+          "slotId": "mod_magazine"
+        },
+        {
+          "itemTpl": "59bfc5c886f7743bf6794e62",
+          "slotId": "mod_muzzle"
+        },
+        {
+          "itemTpl": "59985a6c86f77414ec448d17",
+          "slotId": "mod_reciever",
+          "children": [
+            {
+              "itemTpl": "58d39d3d86f77445bb794ae7",
+              "slotId": "mod_scope",
+              "children": [
+                {
+                  "itemTpl": "58d39b0386f77443380bf13c",
+                  "slotId": "mod_scope",
+                  "children": [
+                    {
+                      "itemTpl": "58d399e486f77442e0016fe7",
+                      "slotId": "mod_scope"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemTpl": "599860e986f7743bb57573a6",
+          "slotId": "mod_sight_rear"
+        },
+        {
+          "itemTpl": "59ccd11386f77428f24a488f",
+          "slotId": "mod_gas_block",
+          "children": [
+            {
+              "itemTpl": "5648b4534bdc2d3d1c8b4580",
+              "slotId": "mod_handguard",
+              "children": [
+                {
+                  "itemTpl": "544909bb4bdc2d6f028b4577",
+                  "slotId": "mod_scope"
+                },
+                {
+                  "itemTpl": "5c1bc7752e221602b1779b34",
+                  "slotId": "mod_foregrip"
+                },
+                {
+                  "itemTpl": "560d657b4bdc2da74d8b4572",
+                  "slotId": "mod_tactical_002"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemTpl": "6130ca3fd92c473c77020dbd",
+          "slotId": "mod_charge"
+        },
+        {
+          "itemTpl": "65f1b1176dbd6c5ba2082eed",
+          "slotId": "mod_scope",
+          "children": []
+        }
+      ]
+    },
+    {
+      "itemTpl": "5a7ae0c351dfba0017554310",
+      "loyaltyLevel": 3,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 185000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "5a6b5e468dc32e001207faf5",
+          "slotId": "mod_barrel",
+          "children": [
+            {
+              "itemTpl": "5a6b592c8dc32e00094b97bf",
+              "slotId": "mod_muzzle"
+            }
+          ]
+        },
+        {
+          "itemTpl": "5a71e22f8dc32e00094b97f4",
+          "slotId": "mod_reciever",
+          "children": [
+            {
+              "itemTpl": "5a6f5d528dc32e00094b97d9",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "itemTpl": "5a6f58f68dc32e000a311390",
+              "slotId": "mod_sight_front"
+            },
+            {
+              "itemTpl": "5a71e1868dc32e00094b97f3",
+              "slotId": "mod_scope"
+            }
+          ]
+        },
+        {
+          "itemTpl": "5a718da68dc32e000d46d264",
+          "slotId": "mod_magazine"
+        },
+        {
+          "itemTpl": "560d657b4bdc2da74d8b4572",
+          "slotId": "mod_tactical"
+        },
+        {
+          "itemTpl": "5a7b4960e899ef197b331a2d",
+          "slotId": "mod_pistol_grip"
+        }
+      ]
+    },
+    {
+      "itemTpl": "66992b349950f5f4cd06029f",
+      "loyaltyLevel": 3,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 210000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "668031ffe3e7eb26e8004cdd",
+          "slotId": "mod_magazine"
+        },
+        {
+          "itemTpl": "6698c89bfbc8142e60024b0e",
+          "slotId": "mod_barrel",
+          "children": [
+            {
+              "itemTpl": "5a32a064c4a28200741e22de",
+              "slotId": "mod_muzzle_001"
+            },
+            {
+              "itemTpl": "6698c9ba29e062525d0ad8b1",
+              "slotId": "mod_muzzle_000"
+            }
+          ]
+        },
+        {
+          "itemTpl": "66993149558c59581e03c028",
+          "slotId": "mod_handguard",
+          "children": []
+        },
+        {
+          "itemTpl": "669946c157df3e2b4e0a0dc5",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "itemTpl": "66992f4db9f31ddda10dd1c8",
+          "slotId": "mod_stock",
+          "children": [
+            {
+              "itemTpl": "6529348224cbe3c74a05e5c4",
+              "slotId": "mod_stock",
+              "children": [
+                {
+                  "itemTpl": "6529366450dc782999054ba0",
+                  "slotId": "mod_stock",
+                  "children": [
+                    {
+                      "itemTpl": "6516e91f609aaf354b34b3e2",
+                      "slotId": "mod_stock_000",
+                      "children": [
+                        {
+                          "itemTpl": "6516e9bc5901745209404287",
+                          "slotId": "mod_stock_000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemTpl": "6698c90829e062525d0ad8ad",
+          "slotId": "mod_mount_000",
+          "children": [
+            {
+              "itemTpl": "5d2da1e948f035477b1ce2ba",
+              "slotId": "mod_scope"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "itemTpl": "5580223e4bdc2d1c128b457f",
+      "loyaltyLevel": 4,
+      "stock": 1,
+      "unlimitedStock": false,
+      "price": 95000,
+      "currency": "RUB",
+      "children": [
+        {
+          "itemTpl": "5580169d4bdc2d9d138b4585",
+          "slotId": "mod_barrel"
+        },
+        {
+          "itemTpl": "611a31ce5b7ffe001b4649d1",
+          "slotId": "mod_stock"
         }
       ]
     }

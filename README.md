@@ -3,7 +3,7 @@
 A TraderGen add-on. Adds **Nikolai "Kolya" Varga**, a former apprentice of Mechanic who
 sells pre-assembled weapons built to every Gunsmith contract specification.
 
-**Version:** 1.0.3
+**Version:** 1.0.4
 
 ---
 
@@ -29,8 +29,10 @@ Do not rename any files or images — the pack references them by name.
 
 ## Contents
 
-- **26 pre-assembled weapons** covering Gunsmith Part 1–25 (including the Part 21
-  M700 / M1911 pair), each built to the quest's specification
+- **32 pre-assembled weapons** covering Gunsmith Part 1–25 (including the Part 21
+  M700 / M1911 pair) plus Gunsmith – Special Order, Gunsmith – Old Friend's Request
+  (T-5000M, PP-19-01 and Glock 17), Breathing Room and Hell on Earth – Part 1,
+  each built to the quest's specification
 - **4-quest storyline** that gates the trader's stock
 
 ## Loyalty progression
@@ -65,6 +67,18 @@ accepted, adjust the build.
 ---
 
 ## Changelog
+
+### 1.0.4
+Nine builds no longer met their contract and were rebuilt: Part 2, 10, 11, 12, 13,
+17, 20, 22 and 25. Most sat just under the ergonomics requirement; Part 11, 12 and 20
+failed on recoil sum by a few points. Each rebuild now clears its thresholds with
+margin rather than sitting on them, so a stat change in a future SPT release is less
+likely to break them again.
+
+Six new weapons for the contracts added to EFT since this mod was first written:
+Gunsmith – Special Order (M4A1), Gunsmith – Old Friend's Request (ORSIS T-5000M,
+PP-19-01 Vityaz and Glock 17), Breathing Room (IWI UZI) and Hell on Earth – Part 1
+(MP-43-1C). Loyalty follows the existing scheme, by position in the quest chain.
 
 ### 1.0.3
 Supply Lines was pinned to Customs even though none of its objectives happen there —
